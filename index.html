@@ -6,10 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <!-- #endregion -->
-<body>
+<body id="home">
   <header class="header">
     <div class="header__top">
       <img src="images/logo.png" alt="Bose logo">
@@ -28,17 +31,33 @@
   </header>
 
   <div class="menu">
-  
+    <div class="menu__top">
+      <img 
+        src="images/logo.png" 
+        alt="Bose logo">
+      <img 
+        src="images/icons/Icon-Close.png"
+        alt="Close"
+        height="11"
+      >
+    </div>
+
+    <nav class="nav">
+      <a href="#home" class="nav__link">Home</a>
+      <a href="#recommended" class="nav__link">Recommended</a>
+      <a href="#categories" class="nav__link">Categories</a>
+      <a href="#how-to-by" class="nav__link">How to buy</a>
+    </nav>
   </div>
 
   <main>
-    <section>
+    <section id="recommended">
       <h2>Recommended</h2>
     </section>
-    <section>
+    <section id="categories">
       <h2>Browse Bose<br>products by category</h2>
     </section>
-    <section>
+    <section id="how-to-by">
       <h2>Why buy direct<br> from Bose</h2>
     </section>
   </main>
