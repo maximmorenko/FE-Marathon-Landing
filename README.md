@@ -13,3 +13,7 @@
 
 ### day 3
 - Recommended products
+
+### day 4
+- region how-to-buy
+- footer
