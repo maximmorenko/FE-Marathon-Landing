@@ -1,3 +1,4 @@
+/* #region page */
 html {
   scroll-behavior: smooth;
 }
@@ -5,11 +6,11 @@ html {
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+  color: #292929;
+  font-size: 16px;
+  line-height: 140%;
 }
-
-section {
-  height: 800px;
-}
+/* #endregion */
 /* #region header */
 .header {
   display: flex;
@@ -29,13 +30,36 @@ section {
   display: flex;
   justify-content: space-between;
 }
+
+.header__title {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 100%;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
 /* #endregion */
 /* #region menu */
 .menu {
+  display: none;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 500ms;
+
   box-sizing: border-box;
   height: 100vh;
   padding: 64px 120px;
   background: #E5E5E5;
+}
+
+.menu:target {
+  transform: translateX(-0%);
 }
 
 .menu__top {
@@ -59,5 +83,74 @@ section {
   line-height: 22px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+/* #endregion */
+
+.main {
+  padding: 120px;
+}
+
+/* #region recommended */
+.recommended {
+  margin-bottom: 120px;
+}
+
+.recommended__title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+
+.recommended__products {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.product__photo {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.product__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.product__category {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.product__price {
+  margin: 0;
+  font-weight: bold;
+}
+/* #endregion */
+
+/* #region categories */
+.categories__title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+/* #endregion */
+
+/* #region how-to-buy */
+.how-to-buy__title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  letter-spacing: -1.5px;
 }
 /* #endregion */

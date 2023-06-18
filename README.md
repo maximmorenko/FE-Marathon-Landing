@@ -10,3 +10,6 @@
 ### day 2
 - navigation
 ### [font Inter](https://fonts.google.com/specimen/Inter)
+
+### day 3
+- Recommended products
