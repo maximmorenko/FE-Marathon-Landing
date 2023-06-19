@@ -1,5 +1,5 @@
 # [FE Marathon Landing](https://maximmorenko.github.io/FE-Marathon-Landing)
-![](https://github.com/maximmorenko/FE-Marathon-Landing/blob/master/images/screen.png)
+### ![](https://github.com/maximmorenko/FE-Marathon-Landing/blob/master/images/screen.png)
 
 ### day 1
 - header
@@ -17,3 +17,9 @@
 ### day 4
 - region how-to-buy
 - footer
+
+### day 5
+- adaptation for mobile
+- deploy netlify
+
+### [FE Marathon Landing](https://timely-faun-db6da2.netlify.app/)

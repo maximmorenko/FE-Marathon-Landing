@@ -96,6 +96,11 @@ body {
   padding: 120px;
   background-color: white;
 }
+@media (max-width: 640px) {
+  .main {
+    padding: 20px;
+  }
+}
 /* #endregion */
 /* #region recommended */
 .recommended {
@@ -116,6 +121,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+@media (max-width: 640px) {
+  .recommended__products {
+    flex-direction: column;
+  }
 }
 /* #endregion */
 /* #region product */
